@@ -1,0 +1,25 @@
+
+<html>
+<head>
+	<title>!!!</title>
+	<script type="text/javascript">
+	 console.log(1+"2"+"2");//line 1
+	 console.log(1+ +"2"+"2");
+	 console.log(1-"1"+"2");
+	 console.log(+"1" +"1"+"2");
+	 console.log("A"-"B"+"2");
+	 console.log("A"-"B"+2);
+	</script>
+</head>
+<body>
+</body>
+</html>
+
+
+output:
+122  //line 1,it takes value in console.log function and print the values.here it will print 1,2,2 because the 2 is present with in double quotes so it consider as string
+32   //line 2,it print values of 1,2. here it adds the value of 1+ +"2"+"2"(in this first 2 is added with 1) =32. 
+02   //line 3,it displays result 02.here 1 and -1 is subtracted, it gives 0 result and remaining 2 printed
+112  //line 4,it displays result 112. in this line all the values is consider as string only.
+NAN2 //line 5,it shows NAN means not a number,because it does not known the A and B value.but its prints the number 2 because 2 is consider as string .
+NAN  //line 6,it shows NAN means not a number,because it does not known the A and B value.
